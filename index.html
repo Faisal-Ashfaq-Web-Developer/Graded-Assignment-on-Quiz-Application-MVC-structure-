@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Physics Quiz</title>
+</head>
+<body>
+    <div id="header">
+        <h1>Physics Quiz</h1>
+    </div>
+    <div id="main-container" class="container">
+        <div id="student-section" class="section">
+            <h2>Student Section</h2>
+            <p>Welcome to the student section. Please login or signup to start the quiz.</p>
+            <button class="btn"><a href="student-login.html">Student Login</a></button>
+            <br>
+            <button class="btn"><a href="student-signup.html">Student Signup</a></button>
+        </div>
+        <div id="admin-section" class="section">
+            <h2>Admin Section</h2>
+            <p>Admins can manage quiz questions and user accounts.</p>
+            <button class="btn"><a href="admin-login.html">Admin Login</a></button>
+            <br>
+            <button class="btn"><a href="admin-signup.html">Admin Signup</a></button>
+        </div>
+    </div>
+
+    <div id="student-dashboard" style="display: none;">
+        <!-- Placeholder for student dashboard content -->
+        <h2>Welcome to the Student Dashboard</h2>
+        <p>This is where students can take the quiz.</p>
+        <button class="btn"><a href="quiz.html">Start Quiz</a></button>
+    </div>
+
+    <div id="admin-dashboard" style="display: none;">
+        <!-- Placeholder for admin dashboard content -->
+        <h2>Welcome to the Admin Dashboard</h2>
+        <p>This is where admins can manage quiz questions and user accounts.</p>
+    </div>
+
+    <script src="login.js"></script>
+    <script src="signup.js"></script>
+</body>
+</html>
